@@ -1,5 +1,4 @@
 import React from 'react';
-import SimpleMenu from './menu';
 import SimpleAccordion from './accordion'
 
 export default  class  Gestserv extends React.Component {
@@ -8,7 +7,7 @@ export default  class  Gestserv extends React.Component {
     {
        return (
            <div className="container" Style="position:relative; height:100%; width:100%;">
-                  <SimpleMenu/>
+                  <button Style="border:none;  height:40px ;text-align:center; font-weight:bold; width:200px;position:absolute; right:1%; top:1%; margin-bottom:2%;">ADD SERVICE</button>
                   <div className="row" Style="display:flex; justify-content:center; padding:5%;">
                         <div className="col-6" Style="margin-bottom:5%;" >
                               <div Style="position:relative;
